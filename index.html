@@ -3,14 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Website</title>
+    <title>Avery's Music Lessons</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello World!</h1>
-    </div>
+    <header>
+        <h1>Avery's Piano and Guitar Lessons</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <script src="script.js"></script>
-</body>
-</html>
+    <section id="hero">
+        <h2>Learn Piano and Guitar with a Passionate Instructor</h2>
+        <p>Private lessons for all ages. Book your first lesson today!</p>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Avery, a musician with a degree from the University of Oregon. I teach piano and guitar to students aged 6-18. I also play in two local bands, Baby Smooth and Standard Deviant.</p>
+    </section>
+
+    <section id="lessons">
+        <h2>Lessons</h2>
+        <p>I offer piano and guitar lessons for all skill levels, from beginners to advanced players. Whether you want to learn classical music or rock out with your favorite tunes, I can help you reach your goals!</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>"Avery is a fantastic teacher! My child loves their piano lessons and is improving so much!" - Happy Parent</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Interested in lessons? Reach out to me below:</p>
+        <form action="submit_form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"
