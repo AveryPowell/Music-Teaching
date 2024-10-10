@@ -1,7 +1,8 @@
-// Log a message to the console
-console.log("Hello World from JavaScript!");
+// Log a message when the page loads
+console.log("Welcome to Avery's Music Lessons website!");
 
-// Example: Change text content after 2 seconds
-setTimeout(() => {
-    document.querySelector('h1').textContent = "Hello from JavaScript!";
-}, 2000);
+// Example: Show an alert when the form is submitted
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for reaching out! I will get back to you soon.');
+});
