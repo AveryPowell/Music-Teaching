@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avery's Music Lessons</title>
+    <title>Avery Powell Music Lessons</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Avery's Piano and Guitar Lessons</h1>
+        <h1>Avery Powell Music Lessons</h1>
         <nav>
             <a href="#about">About Me</a>
             <a href="#lessons">Lessons</a>
@@ -25,22 +25,43 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm Avery, a musician with a degree from the University of Oregon. I teach piano and guitar to students aged 6-18. I also play in two local bands, Baby Smooth and Standard Deviant.</p>
-    </section>
+        <p>Hi! I’m Avery, and I’m passionate about helping people of all ages and skill levels discover the joy of music. My journey as a music educator began at Lane Community College, where I tutored music theory and received a special award for exceptional scholarship in the field. From there, I earned my Bachelor of Science degree in music from the University of Oregon, developing an extensive knowledge of Western classical music.
 
-    <section id="lessons">
-        <h2>Lessons</h2>
-        <p>I offer piano and guitar lessons for all skill levels, from beginners to advanced players. Whether you want to learn classical music or rock out with your favorite tunes, I can help you reach your goals!</p>
+Beyond the classroom, I’ve been playing in bands for over 10 years, honing my skills as a guitarist, vocalist, and keyboardist. This diverse experience has given me a broad understanding of music that spans classical traditions and modern performance practices.
+
+I’ve had the privilege of teaching students ranging in age from 6 to 60, each with unique goals—whether it’s personal enrichment, live performance, recording arts, or professional musicianship. My adaptable teaching style ensures that lessons are tailored to fit your reasons for learning.
+
+I specialize in guitar and piano, with a focus on improvisation and theory, offering a holistic approach to music education. Whether you want to dive deep into technique, explore creative expression, or build confidence as a performer, I’m here to guide you every step of the way.
+
+Lessons are available both in-person and online, providing flexibility to meet your needs. In-person sessions take place in the comfort of your own home, creating a relaxed and familiar environment for learning..</p>
     </section>
 
     <section id="testimonials">
         <h2>Testimonials</h2>
         <p>"Avery is a fantastic teacher! My child loves their piano lessons and is improving so much!" - Happy Parent</p>
     </section>
-
+    
     <section id="contact">
         <h2>Contact</h2>
-        <p>Interested in lessons? Reach out to me below:</p>
+        <p>Interested in lessons? Reach out to me using the form below:</p>
         <form action="submit_form" method="POST">
+            <!-- Name Field -->
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name"
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <!-- Subject Field -->
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+    
+            <!-- Message Field -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+    
+            <!-- Submit Button -->
+            <button type="submit">Send</button>
+        </form>
+    </section>
