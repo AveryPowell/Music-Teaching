@@ -34,6 +34,16 @@ nav a {
     text-align: center;
 }
 
+/* Profile photo styling */
+.profile-photo {
+    display: block;
+    margin: 0 auto 20px; /* Centers the image and adds space below */
+    width: 150px; /* Adjust the size */
+    height: auto;
+    border-radius: 50%; /* Makes the photo circular */
+    border: 3px solid #ccc; /* Optional: Adds a border */
+}
+
 .cta-button {
     background-color: #28a745;
     color: white;
